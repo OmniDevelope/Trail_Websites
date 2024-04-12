@@ -1,78 +1,35 @@
-/* Reset some default browser styles */
-* {
-    margin: 2;
-    padding: 1;
-    box-sizing: border-box;
-}
 
-/* Style the header */
-header {
-    background-color: #423;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
 
-header h1 {
-    margin: 0;
-}
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p id="intro-text">Loading...</p>
+        </section>
 
-nav ul {
-    list-style-type: none;
-}
+        <section id="interests">
+            <h2>Interests</h2>
+            <ul id="interests-list">
+                <li>Loading...</li>
+            </ul>
+        </section>
+    </main>
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Style the main content */
-main {
-    padding: 20px;
-}
-
-#products {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.product {
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-.product img {
-    max-width: 100%;
-    height: auto;
-}
-
-.product h2 {
-    margin-top: 10px;
-}
-
-.product button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.product button:hover {
-    background-color: #555;
-}
-
-/* Style the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
+    <script src="script.js"></script>
+</body>
+</html>
