@@ -1,8 +1,8 @@
 // Sample product data (can be replaced with actual product data from a database)
 const products = [
-    { id: 1, name: "Product 1", price: 10 },
-    { id: 2, name: "Product 2", price: 20 },
-    { id: 3, name: "Product 3", price: 30 }
+    { id: 1, name: "GangaJal 100 mL", price: 10.5 },
+    { id: 2, name: "GangaJal 250 mL", price: 15 },
+    { id: 3, name: "GangaJal 500 mL", price: 20 }
 ];
 
 // Function to display products on the page
