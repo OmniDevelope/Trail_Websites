@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Replace the loading text with your introduction
-    var introText = "Hi, I'm Your Name. Welcome to my website!";
+    var introText = "Hi, I'm A Nobody. Welcome to OmniSeller!";
     document.getElementById('intro-text').textContent = introText;
 
     // Replace the loading text with your interests
