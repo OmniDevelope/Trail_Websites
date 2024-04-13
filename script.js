@@ -1,6 +1,6 @@
 // Sample product data (can be replaced with actual product data from a database)
 const products = [
-    { id: 1, name: "GangaJal 100 mL", price: 10.5 },
+    { id: 1, name: "GangaJal 100 mL", price: 10.5, image: "https://images.meesho.com/images/products/102227965/5jqnp_512.webp" },
     { id: 2, name: "GangaJal 250 mL", price: 15 },
     { id: 3, name: "GangaJal 500 mL", price: 20 }
 ];
